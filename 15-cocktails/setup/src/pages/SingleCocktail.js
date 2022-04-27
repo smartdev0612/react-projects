@@ -28,6 +28,7 @@ const SingleCocktail = () => {
             strIngredient4,
             strIngredient5,
           } = data.drinks[0]
+
           const ingredients = [
             strIngredient1,
             strIngredient2,
@@ -92,12 +93,12 @@ const SingleCocktail = () => {
             <span className="drink-data">instructions : </span>
             {instructions}
           </p>
-          <p>
+          {/* <p>
             <span className="drink-data">ingredients : </span>
             {ingredients.map((item, index) => {
-              return item? <span key={index}>{item}</span> : null
+              return item ? <span key={index}>{item}</span> : null
             })}
-          </p>
+          </p> */}
         </div>
       </div>
     </section>
