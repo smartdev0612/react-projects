@@ -28,8 +28,6 @@ function App() {
     answers[tempIndex] = correct_answer
   }
 
-  // console.log("App loading...");
-
   return (
     <main>
       <Modal />
